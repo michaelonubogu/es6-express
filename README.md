@@ -101,12 +101,8 @@ $ yarn run build -- --release --docker
 
 ### feature list
 
-[ ] express 支持 es6
-
-[ ] 支持 mongoose
-
-[ ] 支持 ejs
-
-[x] 单元测试
-
-[x] deploy 部署脚本
+* [x] express 支持 es6
+* [x] 支持 mongoose
+* [x] 支持 ejs
+* [ ] 单元测试
+* [ ] deploy 部署脚本

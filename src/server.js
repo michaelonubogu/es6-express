@@ -19,13 +19,7 @@ dbConn.on('error', () => {
   throw new Error(`unable to connect to database at: ${db}`);
 });
 
-const env = process.env.NODE_ENV || 'development';
-
-
 const app = express();
-
-app.locals.ENV = env;
-app.locals.ENV_DEVELOPMENT = env === 'development';
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
