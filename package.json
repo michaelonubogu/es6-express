@@ -6,6 +6,12 @@
     "node": ">=6.9",
     "npm": ">=3.10"
   },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
   "description": "express-starter-kit",
   "main": "index.js",
   "author": "wbj <297190869@qq.com>",
@@ -16,8 +22,7 @@
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "mongoose": "^4.9.2",
-    "morgan": "^1.8.1",
-    "react": "^15.4.2"
+    "morgan": "^1.8.1"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",
@@ -40,13 +45,11 @@
     "css-loader": "^0.26.1",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-flowtype-errors": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0",
     "file-loader": "^0.10.0",
     "flow-bin": "0.38.0",
     "flow-typed": "^2.0.0",
@@ -55,7 +58,6 @@
     "mkdirp": "^0.5.1",
     "mocha": "^3.2.0",
     "nyc": "^10.1.2",
-    "pre-commit": "^1.2.2",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.4",
     "sinon": "^2.0.0-pre.5",
