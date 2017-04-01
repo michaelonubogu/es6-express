@@ -102,7 +102,11 @@ $ yarn run build -- --release --docker
 ### feature list
 
 [ ] express 支持 es6
+
 [x] 支持 mongoose
+
 [x] 单元测试
+
 [x] ejs, jade
+
 [x] deploy 部署脚本
