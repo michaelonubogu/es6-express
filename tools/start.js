@@ -59,6 +59,7 @@ async function start() {
 
       bs.init({
         ...isDebug ? {} : { notify: false, ui: false },
+        files: 'build/views/*.ejs',
 
         proxy: {
           target: server.host,

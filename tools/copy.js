@@ -20,11 +20,13 @@ async function copy() {
       },
     }, null, 2)),
     copyDir('public', 'build/public'),
+    copyDir('src/views', 'build/views'),
   ]);
 
   if (process.argv.includes('--watch')) {
     const watcher = chokidar.watch([
       'public/**/*',
+      'src/views/**/*',
     ], { ignoreInitial: true });
 
     watcher.on('all', async (event, filePath) => {

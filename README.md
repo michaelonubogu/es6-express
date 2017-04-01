@@ -25,7 +25,7 @@ Yarn, Webpack, Babel 以及 Browsersync 能够帮助你更快的搭建应用.
 │   ├── /models/                # express Model
 │   ├── /controllers/           # express Controllers
 │   ├── /routes/                # express Rroutes
-│   ├── /template/              # 模板文件 可能是 ejs, jade
+│   ├── /views/                 # 模板文件 可能是 ejs, jade
 │   ├── /config.js              # 全局应用程序设置
 │   └── /server.js              # 服务器端脚本启动
 ├── /test/                      # 单元测试 以及 点对点测试
@@ -103,10 +103,10 @@ $ yarn run build -- --release --docker
 
 [ ] express 支持 es6
 
-[x] 支持 mongoose
+[ ] 支持 mongoose
+
+[ ] 支持 ejs
 
 [x] 单元测试
-
-[x] ejs, jade
 
 [x] deploy 部署脚本
